@@ -72,7 +72,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Myecommerce.wsgi.application'
 
-
+IMPORT_EXPORT_USE_TRANSACTIONS = True
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
@@ -131,3 +131,5 @@ MEDIA_ROOT =  BASE_DIR/'static'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+IMPORT_EXPORT_USE_TRANSACTIONS = True
